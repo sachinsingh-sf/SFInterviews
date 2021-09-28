@@ -10,14 +10,6 @@
                 <behavior>Required</behavior>
                 <field>Name</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>ParentInterviewEvent__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>InterviewEventSetting__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -57,7 +49,11 @@
     </layoutSections>
     <relatedLists>
         <fields>NAME</fields>
-        <relatedList>InterviewEvent__c.ParentInterviewEvent__c</relatedList>
+        <relatedList>OrganisingCommitteeHiringPanel__c.HiringPanel__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>HiringPanelMember__c.HiringPanel__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>

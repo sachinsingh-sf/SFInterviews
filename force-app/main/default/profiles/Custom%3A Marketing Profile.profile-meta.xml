@@ -1,8 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>InterviewEvent__c.ParentInterviewEvent__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>CandidateCandidatePool__c-CandidateCandidatePool Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CandidatePool__c-CandidatePool Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Candidate__c-Candidate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HiringPanelMember__c-HiringPanelMember Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HiringPanel__c-HiringPanel Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InterviewEventOrganiser__c-InterviewEventOrganiser Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InterviewEventTemplate__c-InterviewEventSetting Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>InterviewEvent__c-InterviewEvent Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InterviewOrganizingCommittee__c-InterviewOrganizingCommittee Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InterviewParticipant__c-InterviewParticipant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OrganisingCommitteeHiringPanel__c-OrganisingCommitteeHiringPanel Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OrganisingCommitteeMember__c-OrganisingCommitteeMember Layout</layout>
     </layoutAssignments>
     <userLicense>Salesforce</userLicense>
     <userPermissions>

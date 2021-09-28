@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ParentInterviewEvent__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Parent Interview Event</description>
+    <externalId>false</externalId>
+    <label>ParentInterviewEvent</label>
+    <referenceTo>InterviewEvent__c</referenceTo>
+    <relationshipLabel>InterviewEvents</relationshipLabel>
+    <relationshipName>InterviewEvents</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

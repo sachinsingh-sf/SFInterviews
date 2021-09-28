@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InterviewEventSetting__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Reference to Setting instance</description>
+    <externalId>false</externalId>
+    <label>InterviewEventSetting</label>
+    <referenceTo>InterviewEventTemplate__c</referenceTo>
+    <relationshipLabel>InterviewEvents</relationshipLabel>
+    <relationshipName>InterviewEvents</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
