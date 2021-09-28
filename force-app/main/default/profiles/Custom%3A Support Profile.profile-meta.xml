@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>InterviewEvent__c.ParentInterviewEvent__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>InterviewEventTemplate__c-InterviewEventSetting Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>InterviewEvent__c-InterviewEvent Layout</layout>
     </layoutAssignments>
