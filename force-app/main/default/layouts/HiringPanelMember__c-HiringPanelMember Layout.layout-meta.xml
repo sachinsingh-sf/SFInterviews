@@ -15,8 +15,8 @@
                 <field>HiringPanel__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>OrganisingCommitteeMember__c</field>
+                <behavior>Edit</behavior>
+                <field>User__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns/>
