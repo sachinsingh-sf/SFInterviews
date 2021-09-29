@@ -16,11 +16,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Candidate__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>InteractionPlan__c</field>
+                <field>OrganisingCommitteeHiringPanel__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns/>

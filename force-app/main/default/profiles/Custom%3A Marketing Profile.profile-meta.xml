@@ -8,9 +8,27 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Interaction__c.InteractionSchedule__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>InterviewEvent__c.ParentInterviewEvent__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>InterviewParticipant__c.InteractionPlan__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ScheduledInterviewPanel__c.HiringPanelMember__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>ActivePanel__c-ActivePanel Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>CandidateCandidatePool__c-CandidateCandidatePool Layout</layout>
     </layoutAssignments>
@@ -25,6 +43,15 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>HiringPanel__c-HiringPanel Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InteractionPlan__c-InteractionPlan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InteractionSchedule__c-InteractionSchedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Interaction__c-Interaction Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>InterviewEventOrganiser__c-InterviewEventOrganiser Layout</layout>
@@ -43,6 +70,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>OrganisingCommitteeHiringPanel__c-OrganisingCommitteeHiringPanel Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ScheduledInterviewPanel__c-ScheduledInterviewPanel Layout</layout>
     </layoutAssignments>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
