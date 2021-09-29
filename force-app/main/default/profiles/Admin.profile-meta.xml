@@ -3,6 +3,11 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Feedback__c.HandshakeInformation__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>HiringPanelMember__c.User__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -39,6 +44,15 @@
         <layout>Candidate__c-Candidate Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>FeedbackTemplate__c-FeedbackTemplate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Feedback__c-Feedback Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HandshakeInformation__c-HandshakeInformation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>HiringPanelMember__c-HiringPanelMember Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -70,6 +84,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>OrganisingCommitteeHiringPanel__c-OrganisingCommitteeHiringPanel Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>QuestionaireTemplate__c-QuestionaireTemplate Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ScheduledInterviewPanel__c-ScheduledInterviewPanel Layout</layout>
@@ -108,6 +125,33 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Candidate__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>FeedbackTemplate__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Feedback__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>HandshakeInformation__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -207,6 +251,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>OrganisingCommitteeHiringPanel__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>QuestionaireTemplate__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
