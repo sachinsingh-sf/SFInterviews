@@ -12,11 +12,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>HiringPanel__c</field>
+                <field>InteractionPlan__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>User__c</field>
+                <field>InteractionSchedule__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns/>

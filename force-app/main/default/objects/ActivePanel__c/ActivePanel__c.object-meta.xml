@@ -152,14 +152,14 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>Private</externalSharingModel>
-    <label>OrganisingCommitteeMember</label>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>ActivePanel</label>
     <nameField>
-        <label>OrganisingCommitteeHiringPanel Name</label>
+        <label>ActivePanel Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>OrganisingCommitteeMembers</pluralLabel>
+    <pluralLabel>ActivePanel</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
