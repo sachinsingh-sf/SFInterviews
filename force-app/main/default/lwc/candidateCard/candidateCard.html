@@ -1,0 +1,47 @@
+<!-- sldsValidatorIgnore -->
+<template>
+
+    <lightning-card 
+        variant="narrow"
+        icon-name="standard:opportunity" 
+        title="Kumar Pahlajani">
+        <lightning-button-icon
+            slot="actions" 
+            icon-name="utility:down" 
+            alternative-text="Refresh"
+            title="Refresh">
+        </lightning-button-icon>
+
+        <lightning-layout>
+            <lightning-layout-item size="12" padding="around-small">
+                <ul class="slds-has-dividers_around-space">
+                    <li>
+                        <p><lightning-formatted-text value="In Discussion With Mr.X" ></lightning-formatted-text></p>
+                    </li>
+                   <!-- <li>
+                        <lightning-input type="datetime"
+                            label="Start Time">
+                        </lightning-input>
+                    </li>
+                    <li>
+                        <lightning-input type="datetime"
+                            label="End Time">
+                        </lightning-input>
+                    </li>-->
+                </ul>
+            </lightning-layout-item>
+        </lightning-layout>
+
+        <p slot="footer">
+            <lightning-layout>
+                <lightning-layout-item size="4" padding="around-small">
+                    <lightning-formatted-text value=" Performance  7/10" ></lightning-formatted-text>
+</lightning-layout-item>
+<lightning-layout-item size="8" padding="around-small">
+    <lightning-formatted-text value="Duration" ></lightning-formatted-text>
+        </lightning-layout-item>
+    </lightning-layout>
+        </p>
+
+    </lightning-card>
+</template>
