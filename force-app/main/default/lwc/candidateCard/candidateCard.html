@@ -1,47 +1,62 @@
 <!-- sldsValidatorIgnore -->
 <template>
-
+    <div class="slds-box">
+        <div class="slds-grid slds-wrap">
     <lightning-card 
-        variant="narrow"
-        icon-name="standard:opportunity" 
-        title="Kumar Pahlajani">
-        <lightning-button-icon
-            slot="actions" 
-            icon-name="utility:down" 
-            alternative-text="Refresh"
-            title="Refresh">
-        </lightning-button-icon>
-
-        <lightning-layout>
-            <lightning-layout-item size="12" padding="around-small">
-                <ul class="slds-has-dividers_around-space">
-                    <li>
-                        <p><lightning-formatted-text value="In Discussion With Mr.X" ></lightning-formatted-text></p>
-                    </li>
-                   <!-- <li>
-                        <lightning-input type="datetime"
-                            label="Start Time">
-                        </lightning-input>
-                    </li>
-                    <li>
-                        <lightning-input type="datetime"
-                            label="End Time">
-                        </lightning-input>
-                    </li>-->
-                </ul>
-            </lightning-layout-item>
-        </lightning-layout>
-
-        <p slot="footer">
+        icon-name="standard:contact">
+        <header slot="title" >
             <lightning-layout>
-                <lightning-layout-item size="4" padding="around-small">
-                    <lightning-formatted-text value=" Performance  7/10" ></lightning-formatted-text>
-</lightning-layout-item>
-<lightning-layout-item size="8" padding="around-small">
-    <lightning-formatted-text value="Duration" ></lightning-formatted-text>
-        </lightning-layout-item>
-    </lightning-layout>
-        </p>
+                <lightning-layout-item size="4" padding="around-small" flexibility="auto">
+                    <b>Kumar Pahlajani</b>
+                </lightning-layout-item>
+                <lightning-layout-item size="12" padding="around-small">
+                    <div slot="actions">
+                        <lightning-button-icon
+                            icon-name="utility:edit" 
+                            alternative-text="Refresh"
+                            title="Refresh"
+                            size="x-small">
+                        </lightning-button-icon>
+                  </div>
+                </lightning-layout-item>
+            </lightning-layout>
+        </header>
 
+        <p class="slds-p-horizontal_small"><b>In discussion with Arun, Nageswara, Alex.</b></p>
+
+                    <p slot="footer">
+                        <lightning-layout>
+                            <lightning-layout-item size="4" padding="around-small">
+                                <span data-slds-state="negative" data-slds-strength="-2" title="Description of the icon when needed" class="slds-icon-strength">
+                                    <svg viewBox="0 0 48 7" aria-hidden="true">
+                                    <circle r="3.025" cx="3.5" cy="3.5"></circle>
+                                    <circle r="3.025" cx="13.5" cy="3.5"></circle>
+                                    <circle r="3.025" cx="23.5" cy="3.5"></circle>
+                                    <circle r="3.025" cx="33.5" cy="3.5"></circle>
+                                    <circle r="3.025" cx="43.5" cy="3.5"></circle>
+                                    </svg>
+                                    <span class="slds-assistive-text">Text alternative when needed</span>
+                                </span>
+                            </lightning-layout-item>
+                            <lightning-layout-item size="4" padding="around-small">
+                                <lightning-dynamic-icon
+                                type="eq"
+                                option="play"
+                                alternative-text="Recording in progress">
+                                </lightning-dynamic-icon>
+                            </lightning-layout-item>
+                            <lightning-layout-item size="4" padding="around-small">
+                                <lightning-button-icon
+                                    icon-name="utility:edit" 
+                                    alternative-text="Refresh"
+                                    title="Refresh"
+                                    size="x-small">
+                                </lightning-button-icon>
+                            </lightning-layout-item>
+                        </lightning-layout>
+                    </p>
+      
     </lightning-card>
+</div>
+</div>
 </template>
