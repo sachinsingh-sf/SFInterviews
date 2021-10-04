@@ -28,6 +28,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>InterviewEvent__c.State__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>InterviewParticipant__c.InteractionPlan__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -73,7 +78,7 @@
         <layout>Interaction__c-Interaction Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>InterviewEventOrganiser__c-InterviewEventOrganiser Layout</layout>
+        <layout>InterviewEventTemplateSkill__c-InterviewEventTemplateSkill Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>InterviewEventTemplate__c-InterviewEventSetting Layout</layout>
@@ -95,6 +100,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ScheduledInterviewPanel__c-ScheduledInterviewPanel Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Skill__c-Skill Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -210,7 +218,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>InterviewEventOrganiser__c</object>
+        <object>InterviewEventTemplateSkill__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -274,6 +282,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>ScheduledInterviewPanel__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Skill__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabVisibilities>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Created</fullName>
+        <default>false</default>
+        <label>Created</label>
+    </customValue>
+    <customValue>
+        <fullName>Planning In Progress</fullName>
+        <default>false</default>
+        <label>Planning In Progress</label>
+    </customValue>
+    <customValue>
+        <fullName>Planned</fullName>
+        <default>false</default>
+        <label>Planned</label>
+    </customValue>
+    <customValue>
+        <fullName>Execution</fullName>
+        <default>false</default>
+        <label>Execution</label>
+    </customValue>
+    <customValue>
+        <fullName>Execution Completed</fullName>
+        <default>false</default>
+        <label>Execution Completed</label>
+    </customValue>
+    <customValue>
+        <fullName>Closed</fullName>
+        <default>false</default>
+        <label>Closed</label>
+    </customValue>
+    <customValue>
+        <fullName>Canceled</fullName>
+        <default>false</default>
+        <label>Canceled</label>
+    </customValue>
+    <description>Possible states of an Interview Event.</description>
+    <masterLabel>InterviewEventState</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

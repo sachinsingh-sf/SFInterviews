@@ -4,9 +4,9 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Parent Interview Event</description>
     <externalId>false</externalId>
-    <label>ParentInterviewEvent</label>
+    <label>Parent Interview Event</label>
     <referenceTo>InterviewEvent__c</referenceTo>
-    <relationshipLabel>InterviewEvents</relationshipLabel>
+    <relationshipLabel>Child Interview Events</relationshipLabel>
     <relationshipName>InterviewEvents</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>

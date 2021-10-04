@@ -4,7 +4,6 @@
     <externalId>false</externalId>
     <label>InteractionSchedule</label>
     <referenceTo>InteractionSchedule__c</referenceTo>
-    <relationshipLabel>ScheduledInterviewPanel</relationshipLabel>
     <relationshipName>ScheduledInterviewPanel</relationshipName>
     <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>

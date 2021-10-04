@@ -159,9 +159,9 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>InterviewEvent</label>
+    <label>Interview Event</label>
     <nameField>
-        <label>InterviewEvent Name</label>
+        <label>Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>InterviewEvents</pluralLabel>

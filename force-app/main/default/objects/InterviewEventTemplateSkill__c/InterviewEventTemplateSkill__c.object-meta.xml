@@ -143,7 +143,6 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Committee organising the event.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -154,12 +153,12 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>InterviewEventOrganiser</label>
+    <label>Interview Event Template Skill</label>
     <nameField>
-        <label>InterviewEventOrganiser Name</label>
+        <label>InterviewEventTemplateSkill Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>InterviewEventOrganisers</pluralLabel>
+    <pluralLabel>InterviewEventTemplateSkills</pluralLabel>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>

@@ -154,12 +154,12 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>InterviewEventSetting</label>
+    <label>Interview Event Template</label>
     <nameField>
         <label>InterviewEventTemplate Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>InterviewEventSetting</pluralLabel>
+    <pluralLabel>InterviewEventTemplates</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

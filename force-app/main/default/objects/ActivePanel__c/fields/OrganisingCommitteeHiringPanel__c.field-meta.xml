@@ -3,9 +3,9 @@
     <fullName>OrganisingCommitteeHiringPanel__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <externalId>false</externalId>
-    <label>OrganisingCommitteeHiringPanel</label>
+    <label>Organising Committee Hiring Panel</label>
     <referenceTo>OrganisingCommitteeHiringPanel__c</referenceTo>
-    <relationshipLabel>ActivePanel</relationshipLabel>
+    <relationshipLabel>Active Panels</relationshipLabel>
     <relationshipName>ActivePanel</relationshipName>
     <required>true</required>
     <trackTrending>false</trackTrending>

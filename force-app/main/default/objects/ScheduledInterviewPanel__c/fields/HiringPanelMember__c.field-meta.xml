@@ -5,7 +5,6 @@
     <externalId>false</externalId>
     <label>HiringPanelMember</label>
     <referenceTo>HiringPanelMember__c</referenceTo>
-    <relationshipLabel>ScheduledInterviewPanel</relationshipLabel>
     <relationshipName>ScheduledInterviewPanel</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>

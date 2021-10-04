@@ -153,9 +153,9 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>ActivePanel</label>
+    <label>Active Panel</label>
     <nameField>
-        <label>ActivePanel Name</label>
+        <label>Active Panel Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>ActivePanel</pluralLabel>

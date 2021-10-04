@@ -153,13 +153,13 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>InterviewParticipant</label>
+    <label>Interview Participant</label>
     <nameField>
         <displayFormat>SF-Candidate-{00000}</displayFormat>
-        <label>InterviewParticipant</label>
+        <label>Interview Participant</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>InterviewParticipant</pluralLabel>
+    <pluralLabel>Interview Participants</pluralLabel>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>

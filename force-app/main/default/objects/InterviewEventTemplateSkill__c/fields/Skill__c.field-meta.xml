@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>InterviewEvent__c</fullName>
-    <description>Interview Event relationships</description>
+    <fullName>Skill__c</fullName>
     <externalId>false</externalId>
-    <label>InterviewEvent</label>
-    <referenceTo>InterviewEvent__c</referenceTo>
-    <relationshipLabel>InterviewEventOrganisers</relationshipLabel>
-    <relationshipName>InterviewEventOrganisers</relationshipName>
+    <label>Skill</label>
+    <referenceTo>ProfileSkill</referenceTo>
+    <relationshipName>InterviewEventTemplateSkills</relationshipName>
     <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>
     <trackTrending>false</trackTrending>
