@@ -1,0 +1,27 @@
+<template>
+    <lightning-card>
+       
+        <lightning-layout>
+            <template for:each={interactions} for:item="interaction">
+                <lightning-layout-item size="3" padding="around-small"  key={interaction.Id}>
+                    <div class="slds-box">
+                        <h1 style="font-size:10px;text-align:center"><b>{interaction.Desc}</b></h1>
+                        <h1 style="font-size:10px;text-align:center"><b>Count [ {interaction.NumberOfCandidates} ] </b></h1>
+                    </div>
+                    <lightning-layout multiple-rows="true">
+                        <lightning-layout-item size="12" padding="around-xsmall">
+                                <ul class="slds-has-dividers">
+                                        <li class="slds-item">
+                                            <c-candidate-card></c-candidate-card>
+                                        </li>
+                                        <li class="slds-item">
+                                            <c-candidate-card></c-candidate-card>
+                                        </li>
+                                </ul>
+                        </lightning-layout-item>
+                    </lightning-layout>   
+                </lightning-layout-item>
+            </template>
+        </lightning-layout>
+    </lightning-card>
+</template>

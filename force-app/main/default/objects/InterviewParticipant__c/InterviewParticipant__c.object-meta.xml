@@ -155,8 +155,9 @@
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <label>InterviewParticipant</label>
     <nameField>
-        <label>InterviewParticipant Name</label>
-        <type>Text</type>
+        <displayFormat>SF-Candidate-{00000}</displayFormat>
+        <label>InterviewParticipant</label>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>InterviewParticipant</pluralLabel>
     <searchLayouts/>

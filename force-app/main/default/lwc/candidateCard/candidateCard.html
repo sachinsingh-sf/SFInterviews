@@ -1,0 +1,89 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_xx-small slds-theme_shad slds-p-right_xx-small">
+        <a href="#" onmouseenter={handleSelect}>
+            <lightning-card 
+                icon-name="standard:contact">
+                <header slot="title" >
+                    <lightning-layout>
+                        <lightning-layout-item size="4" padding="around-xx-small" flexibility="auto">
+                            <h1 class="no-wrap" style="text-align:center;"><b>Kumar Pahlajani</b></h1>
+                        </lightning-layout-item>
+                        <lightning-layout-item size="12" padding="around-xx-small">
+                            <div slot="actions">
+                                <lightning-button-icon
+                                    icon-name="utility:edit" 
+                                    alternative-text="Refresh"
+                                    title="Refresh"
+                                    size="x-small">
+                                </lightning-button-icon>
+                            </div>
+                        </lightning-layout-item>
+                    </lightning-layout>
+                </header>
+
+                <lightning-layout>
+                    <lightning-layout-item size="12" padding="around-small" flexibility="auto">
+                        <h1 style="color:black;"><b>In discussion with kumar pahlajani and kumar pahlajani . Start time 10:30 AM.</b></h1>
+                    </lightning-layout-item>
+                </lightning-layout>
+                        <div class="slds-button_last slds-p-around_xx-small">
+                            <p slot="footer">
+                                    <lightning-layout>
+                                        <lightning-layout-item size="4" padding="around-x-small">
+                                            <span data-slds-state="negative" data-slds-strength="-2" title="2/5 [ Average ]" class="slds-icon-strength">
+                                                <svg viewBox="0 0 48 7" aria-hidden="true">
+                                                <circle r="3.025" cx="3.5" cy="3.5"></circle>
+                                                <circle r="3.025" cx="13.5" cy="3.5"></circle>
+                                                <circle r="3.025" cx="23.5" cy="3.5"></circle>
+                                                <circle r="3.025" cx="33.5" cy="3.5"></circle>
+                                                <circle r="3.025" cx="43.5" cy="3.5"></circle>
+                                                </svg>
+                                                <span class="slds-assistive-text">Text alternative when needed</span>
+                                            </span>
+                                        </lightning-layout-item>
+                                        <lightning-layout-item size="4"  padding="around-x-small">
+                                            <lightning-dynamic-icon
+                                            type="eq"
+                                            option="play"
+                                            title="Interview in progress !!"
+                                            alternative-text="Recording in progress">
+                                            </lightning-dynamic-icon>
+                                        </lightning-layout-item>
+                                        <lightning-layout-item size="4" padding="around-x-small">
+                                            <lightning-button-icon
+                                                icon-name="utility:edit" 
+                                                alternative-text="Refresh"
+                                                title="Refresh"
+                                                size="x-small">
+                                            </lightning-button-icon>
+                                        </lightning-layout-item>
+                                    </lightning-layout>
+                            </p>
+                        </div>
+            </lightning-card>
+        </a>
+    </div>
+
+    <section if:true={mouseEntered} aria-describedby="dialog-body-id-109" aria-labelledby="dialog-heading-id-3" class="slds-popover slds-popover_walkthrough slds-nubbin_left" role="dialog">
+        <button class="slds-button slds-button_icon slds-button_icon-small slds-float_right slds-popover__close slds-button_icon-inverse" title="Close dialog">
+          <svg class="slds-button__icon" aria-hidden="true">
+            <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+          </svg>
+          <span class="slds-assistive-text">Close dialog</span>
+        </button>
+        <header class="slds-popover__header slds-p-vertical_medium">
+          <h2 id="dialog-heading-id-3" class="slds-text-heading_medium">Manage your channels</h2>
+        </header>
+        <div class="slds-popover__body" id="dialog-body-id-109">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <footer class="slds-popover__footer">
+          <div class="slds-grid slds-grid_vertical-align-center">
+            <span class="slds-text-title">Step 2 of 4</span>
+            <button class="slds-button slds-button_brand slds-col_bump-left">Next</button>
+          </div>
+        </footer>
+      </section>
+
+</template>

@@ -1,0 +1,14 @@
+
+h1 {
+    font-size: x-small;
+    word-wrap: normal ;
+    color: blue;
+}
+
+.no-wrap {
+    white-space: normal;
+}
+
+.THIS .slds-truncate {
+    white-space: normal;
+}

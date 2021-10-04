@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>InterviewEvent_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>InterviewEvent__c</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>interview</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Salesforce Interviews</label>
+    <navType>Console</navType>
+    <setupExperience>all</setupExperience>
+    <tabs>Candidate__c</tabs>
+    <tabs>InterviewEvent__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Salesforce_Interviews_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>Candidate__c</tab>
+        </mappings>
+        <mappings>
+            <fieldName>ParentInterviewEvent__c</fieldName>
+            <tab>InterviewEvent__c</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>
