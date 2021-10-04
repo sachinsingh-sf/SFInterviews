@@ -1,5 +1,6 @@
+
 h1 {
-    font-size: small;
+    font-size: x-small;
     word-wrap: normal ;
     color: blue;
 }
@@ -8,6 +9,6 @@ h1 {
     white-space: normal;
 }
 
-.card .THIS  {
-    background: red;
+.THIS .slds-truncate {
+    white-space: normal;
 }
