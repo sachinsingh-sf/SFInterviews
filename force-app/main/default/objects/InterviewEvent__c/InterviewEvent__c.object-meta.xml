@@ -164,7 +164,7 @@
         <label>Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>InterviewEvents</pluralLabel>
+    <pluralLabel>Interview Events</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

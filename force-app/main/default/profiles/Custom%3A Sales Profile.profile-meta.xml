@@ -13,6 +13,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>HiringPanelMember__c.To__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>HiringPanelMember__c.User__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -29,6 +34,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>InterviewEvent__c.State__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>InterviewOrganizingCommittee__c.ParentOrganizingCommittee__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -93,7 +103,7 @@
         <layout>InterviewParticipant__c-InterviewParticipant Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>OrganisingCommitteeHiringPanel__c-OrganisingCommitteeHiringPanel Layout</layout>
+        <layout>OrganizingCommitteeHiringPanel__c-OrganisingCommitteeHiringPanel Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>QuestionaireTemplate__c-QuestionaireTemplate Layout</layout>
@@ -109,7 +119,15 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>HiringPanel__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>InterviewEvent__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>InterviewOrganizingCommittee__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>

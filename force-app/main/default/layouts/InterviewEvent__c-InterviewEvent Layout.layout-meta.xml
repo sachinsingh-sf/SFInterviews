@@ -30,6 +30,10 @@
                 <behavior>Required</behavior>
                 <field>ExpectedEndDateAndTime__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Interview_Organizing_Committee__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

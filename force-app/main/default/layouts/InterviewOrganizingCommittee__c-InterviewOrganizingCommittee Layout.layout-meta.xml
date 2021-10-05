@@ -10,6 +10,10 @@
                 <behavior>Required</behavior>
                 <field>Name</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>ParentOrganizingCommittee__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -49,11 +53,15 @@
     </layoutSections>
     <relatedLists>
         <fields>NAME</fields>
-        <relatedList>InterviewEventOrganiser__c.InterviewOrganizingCommittee__c</relatedList>
+        <relatedList>OrganizingCommitteeHiringPanel__c.InterviewOrganizingCommittee__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
-        <relatedList>OrganisingCommitteeHiringPanel__c.InterviewOrganizingCommittee__c</relatedList>
+        <relatedList>InterviewOrganizingCommittee__c.ParentOrganizingCommittee__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>InterviewEvent__c.Interview_Organizing_Committee__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>

@@ -154,12 +154,13 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>OrganisingCommitteeHiringPanel</label>
+    <label>Organizing Committee Hiring Panel</label>
     <nameField>
-        <label>OrganisingCommitteeHiringPanel Name</label>
-        <type>Text</type>
+        <displayFormat>HP-{00000}</displayFormat>
+        <label>OrganizingCommitteeHiringPanel Name</label>
+        <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>OrganisingCommitteeHiringPanel</pluralLabel>
+    <pluralLabel>Organizing Committee Hiring Panel</pluralLabel>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
