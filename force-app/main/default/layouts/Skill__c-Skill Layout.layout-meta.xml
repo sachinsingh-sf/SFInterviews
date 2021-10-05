@@ -10,16 +10,13 @@
                 <behavior>Required</behavior>
                 <field>Name</field>
             </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>InterviewEvent__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>InterviewOrganizingCommittee__c</field>
+                <behavior>Edit</behavior>
+                <field>OwnerId</field>
             </layoutItems>
         </layoutColumns>
-        <layoutColumns/>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>

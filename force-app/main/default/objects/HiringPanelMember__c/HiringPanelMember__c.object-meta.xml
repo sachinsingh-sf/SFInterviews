@@ -143,7 +143,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>HiringPanelMember</description>
+    <description>Hiring Panel Members</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -154,12 +154,13 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>HiringPanelMember</label>
+    <label>Hiring Panel Member</label>
     <nameField>
+        <displayFormat>SFHPM-{000000}</displayFormat>
         <label>HiringPanelMember Name</label>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>HiringPanelMember</pluralLabel>
+    <pluralLabel>Hiring Panel Members</pluralLabel>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>

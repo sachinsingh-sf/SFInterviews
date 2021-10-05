@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>InterviewOrganizingCommittee__c</fullName>
-    <description>InterviewOrganizingCommittee relationship</description>
+    <description>Rel record</description>
     <externalId>false</externalId>
     <label>InterviewOrganizingCommittee</label>
     <referenceTo>InterviewOrganizingCommittee__c</referenceTo>
-    <relationshipLabel>InterviewEventOrganisers</relationshipLabel>
-    <relationshipName>InterviewEventOrganisers</relationshipName>
-    <relationshipOrder>1</relationshipOrder>
+    <relationshipName>OrganisingCommitteeHiringPanel</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>
     <trackTrending>false</trackTrending>
     <type>MasterDetail</type>

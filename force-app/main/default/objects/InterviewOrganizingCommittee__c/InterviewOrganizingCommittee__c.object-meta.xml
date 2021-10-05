@@ -150,16 +150,16 @@
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>InterviewOrganizingCommittee</label>
+    <label>Interview Organizing Committee</label>
     <nameField>
-        <label>InterviewOrganizingCommittee Name</label>
+        <label>Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>InterviewOrganizingCommittee</pluralLabel>
+    <pluralLabel>Interview Organizing Committee</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

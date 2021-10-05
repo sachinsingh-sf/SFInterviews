@@ -143,7 +143,6 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>relationship between committee and panel</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -154,12 +153,12 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>OrganisingCommitteeHiringPanel</label>
+    <label>Interview Event Template Skill</label>
     <nameField>
-        <label>OrganisingCommitteeHiringPanel Name</label>
+        <label>InterviewEventTemplateSkill Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>OrganisingCommitteeHiringPanel</pluralLabel>
+    <pluralLabel>InterviewEventTemplateSkills</pluralLabel>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
