@@ -149,16 +149,16 @@
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>HiringPanel</label>
+    <label>Hiring Panel</label>
     <nameField>
-        <label>HiringPa Name</label>
+        <label>HiringPanel Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>HiringPanel</pluralLabel>
+    <pluralLabel>Hiring Panel</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

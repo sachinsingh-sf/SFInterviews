@@ -65,7 +65,7 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>force:detailPanel</componentName>
+                <componentName>eventDashboardMain</componentName>
             </componentInstance>
         </itemInstances>
         <name>Facet-e30a30a8-6913-4d50-a11e-4c7549148ca4</name>
@@ -110,7 +110,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>title</name>
-                    <value>Standard.Tab.dashboard</value>
+                    <value>Planner</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
             </componentInstance>

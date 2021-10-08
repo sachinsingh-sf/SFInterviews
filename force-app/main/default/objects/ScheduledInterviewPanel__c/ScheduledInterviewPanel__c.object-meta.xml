@@ -153,7 +153,7 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>ScheduledInterviewPanel</label>
+    <label>Scheduled Interview Panel</label>
     <nameField>
         <label>ScheduledInterviewPanel Name</label>
         <type>Text</type>

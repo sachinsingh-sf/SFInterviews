@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>OrganisingCommitteeHiringPanel__c</fullName>
+    <fullName>Hiring_Panel__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <externalId>false</externalId>
-    <label>OrganisingCommitteeHiringPanel</label>
-    <referenceTo>OrganisingCommitteeHiringPanel__c</referenceTo>
+    <label>Hiring Panel</label>
+    <referenceTo>HiringPanel__c</referenceTo>
     <relationshipLabel>ActivePanel</relationshipLabel>
     <relationshipName>ActivePanel</relationshipName>
     <required>true</required>

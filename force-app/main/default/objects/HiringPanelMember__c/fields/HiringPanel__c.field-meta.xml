@@ -4,7 +4,6 @@
     <externalId>false</externalId>
     <label>HiringPanel</label>
     <referenceTo>HiringPanel__c</referenceTo>
-    <relationshipLabel>HiringPanelMember</relationshipLabel>
     <relationshipName>HiringPanelMember</relationshipName>
     <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>

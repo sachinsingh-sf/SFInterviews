@@ -13,6 +13,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>HiringPanelMember__c.To__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>HiringPanelMember__c.User__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -24,6 +29,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>InterviewEvent__c.ParentInterviewEvent__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>InterviewEvent__c.State__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>InterviewOrganizingCommittee__c.ParentOrganizingCommittee__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -73,7 +88,7 @@
         <layout>Interaction__c-Interaction Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>InterviewEventOrganiser__c-InterviewEventOrganiser Layout</layout>
+        <layout>InterviewEventTemplateSkill__c-InterviewEventTemplateSkill Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>InterviewEventTemplate__c-InterviewEventSetting Layout</layout>
@@ -88,7 +103,7 @@
         <layout>InterviewParticipant__c-InterviewParticipant Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>OrganisingCommitteeHiringPanel__c-OrganisingCommitteeHiringPanel Layout</layout>
+        <layout>OrganizingCommitteeHiringPanel__c-OrganisingCommitteeHiringPanel Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>QuestionaireTemplate__c-QuestionaireTemplate Layout</layout>
@@ -96,12 +111,23 @@
     <layoutAssignments>
         <layout>ScheduledInterviewPanel__c-ScheduledInterviewPanel Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Skill__c-Skill Layout</layout>
+    </layoutAssignments>
     <tabVisibilities>
         <tab>Candidate__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>HiringPanel__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>InterviewEvent__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>InterviewOrganizingCommittee__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>

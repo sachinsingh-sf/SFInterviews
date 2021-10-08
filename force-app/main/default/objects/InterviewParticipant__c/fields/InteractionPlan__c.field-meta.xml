@@ -3,9 +3,9 @@
     <fullName>InteractionPlan__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>InteractionPlan</label>
+    <label>Interaction Plan</label>
     <referenceTo>InteractionPlan__c</referenceTo>
-    <relationshipLabel>InterviewParticipant</relationshipLabel>
+    <relationshipLabel>Interview Participants</relationshipLabel>
     <relationshipName>InterviewParticipant</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>
