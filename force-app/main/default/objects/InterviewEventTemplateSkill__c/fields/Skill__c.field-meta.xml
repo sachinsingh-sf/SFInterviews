@@ -3,7 +3,7 @@
     <fullName>Skill__c</fullName>
     <externalId>false</externalId>
     <label>Skill</label>
-    <referenceTo>ProfileSkill</referenceTo>
+    <referenceTo>Skill__c</referenceTo>
     <relationshipName>InterviewEventTemplateSkills</relationshipName>
     <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>

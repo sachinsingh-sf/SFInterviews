@@ -5,6 +5,10 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
+    <classAccesses>
+        <apexClass>SlackAWSCallout</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -23,9 +27,14 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Interaction__c.InteractionSchedule__c</field>
+        <field>Interaction__c.InterviewParticipant__c </field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Interaction__c.Expected_End_Time__c </field>
+        <readable>true</readable>
+    </fieldPermissions>        
     <fieldPermissions>
         <editable>true</editable>
         <field>InterviewEvent__c.ParentInterviewEvent__c</field>
@@ -43,12 +52,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>InterviewParticipant__c.Available_From__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>InterviewParticipant__c.Available_Till__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>InterviewParticipant__c.InteractionPlan__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>ScheduledInterviewPanel__c.HiringPanelMember__c</field>
+        <field>ScheduledInterviewer__c.HiringPanelMember__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
@@ -64,9 +83,6 @@
         <layout>Candidate__c-Candidate Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>FeedbackTemplate__c-FeedbackTemplate Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Feedback__c-Feedback Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -79,19 +95,10 @@
         <layout>HiringPanel__c-HiringPanel Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>InteractionPlan__c-InteractionPlan Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>InteractionSchedule__c-InteractionSchedule Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Interaction__c-Interaction Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>InterviewEventTemplateSkill__c-InterviewEventTemplateSkill Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>InterviewEventTemplate__c-InterviewEventSetting Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>InterviewEvent__c-InterviewEvent Layout</layout>
@@ -109,10 +116,7 @@
         <layout>QuestionaireTemplate__c-QuestionaireTemplate Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ScheduledInterviewPanel__c-ScheduledInterviewPanel Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Skill__c-Skill Layout</layout>
+        <layout>ScheduledInterviewer__c-ScheduledInterviewer Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -291,7 +295,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>ScheduledInterviewPanel__c</object>
+        <object>ScheduledInterviewer__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -834,6 +838,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>OmnichannelInventorySync</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>Packaging2</name>
     </userPermissions>
     <userPermissions>
@@ -938,6 +946,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>UseOmnichannelInventoryAPIs</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>UseTeamReassignWizards</name>
     </userPermissions>
     <userPermissions>
@@ -970,6 +982,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ViewDeveloperName</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ViewEventLogFiles</name>
     </userPermissions>
     <userPermissions>
@@ -983,6 +999,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewHelpLink</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewMLModels</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

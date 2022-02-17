@@ -12,15 +12,15 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>InteractionPlan__c</field>
+                <field>InterviewParticipant__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>InteractionSchedule__c</field>
+                <field>Expected_Start_Time__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>Feedback__c</field>
+                <behavior>Edit</behavior>
+                <field>Expected_End_Time__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
