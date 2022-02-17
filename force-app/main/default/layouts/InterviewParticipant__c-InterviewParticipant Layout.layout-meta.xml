@@ -61,10 +61,7 @@
     </layoutSections>
     <relatedLists>
         <fields>NAME</fields>
-        <fields>Expected_Start_Time__c</fields>
-        <fields>Expected_End_Time__c</fields>
-        <fields>QuestionaireTemplate__c</fields>
-        <relatedList>Interaction__c.InterviewParticipant__c</relatedList>
+        <relatedList>Interview__c.Interview_Participant__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
@@ -72,7 +69,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h11000006XCVU</masterLabel>
+        <masterLabel>00h0t000003mRjf</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

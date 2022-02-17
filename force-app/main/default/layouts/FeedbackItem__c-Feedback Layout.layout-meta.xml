@@ -8,19 +8,19 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>InterviewParticipant__c</field>
+                <field>Name</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Expected_Start_Time__c</field>
+                <field>Interview__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Expected_End_Time__c</field>
+                <field>Comments__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>QuestionaireTemplate__c</field>
+                <behavior>Edit</behavior>
+                <field>Proficiency_Level__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns/>
@@ -46,10 +46,9 @@
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
-        <customLabel>true</customLabel>
+        <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>true</editHeading>
-        <label>Custom Links</label>
         <layoutColumns/>
         <layoutColumns/>
         <layoutColumns/>
@@ -57,22 +56,11 @@
     </layoutSections>
     <relatedLists>
         <fields>NAME</fields>
-        <fields>HiringPanelMember__c</fields>
-        <fields>Actual_Start_Time__c</fields>
-        <fields>Actual_End_Time__c</fields>
-        <fields>HandshakeInformation__c</fields>
-        <fields>Feedback__c</fields>
-        <relatedList>ScheduledInterviewer__c.Interaction__c</relatedList>
+        <relatedList>ScheduledInterviewer__c.Feedback__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
-    <summaryLayout>
-        <masterLabel>00h0t000003mRja</masterLabel>
-        <sizeX>4</sizeX>
-        <sizeY>0</sizeY>
-        <summaryLayoutStyle>Default</summaryLayoutStyle>
-    </summaryLayout>
 </Layout>

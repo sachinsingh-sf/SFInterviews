@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>QuestionaireTemplate__c</fullName>
+    <fullName>Interview_Participant__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <externalId>false</externalId>
-    <label>QuestionaireTemplate</label>
-    <referenceTo>QuestionaireTemplate__c</referenceTo>
-    <relationshipName>Interactions</relationshipName>
+    <label>Interview Participant</label>
+    <referenceTo>InterviewParticipant__c</referenceTo>
+    <relationshipLabel>Interviews</relationshipLabel>
+    <relationshipName>Interviews</relationshipName>
     <required>true</required>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>

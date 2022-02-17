@@ -143,7 +143,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>false</enableActivities>
+    <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
@@ -153,14 +153,14 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Scheduled Interviewer</label>
+    <label>Interview</label>
     <nameField>
-        <displayFormat>SF-Interview-{00000}</displayFormat>
-        <label>Scheduled Interview</label>
-        <type>AutoNumber</type>
+        <label>Interview Name</label>
+        <type>Text</type>
     </nameField>
-    <pluralLabel>ScheduledInterviewer</pluralLabel>
+    <pluralLabel>Interviews</pluralLabel>
     <searchLayouts/>
-    <sharingModel>Private</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
+    <startsWith>Vowel</startsWith>
     <visibility>Public</visibility>
 </CustomObject>

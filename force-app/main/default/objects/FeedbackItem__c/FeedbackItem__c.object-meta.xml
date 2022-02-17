@@ -152,14 +152,14 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>Private</externalSharingModel>
-    <label>Feedback</label>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>Feedback Item</label>
     <nameField>
-        <label>Feedback Name</label>
+        <label>Feedback Item Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Feedback</pluralLabel>
+    <pluralLabel>Feedback Items</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
