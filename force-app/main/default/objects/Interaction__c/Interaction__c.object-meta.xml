@@ -149,17 +149,17 @@
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
-    <label>Interaction</label>
+    <label>InteractionObs</label>
     <nameField>
         <displayFormat>SF-Interaction-{00000}</displayFormat>
         <label>Interaction</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Interactions</pluralLabel>
+    <pluralLabel>InteractionsObs</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

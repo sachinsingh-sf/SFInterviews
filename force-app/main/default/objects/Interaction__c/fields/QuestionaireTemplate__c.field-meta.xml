@@ -5,7 +5,6 @@
     <externalId>false</externalId>
     <label>QuestionaireTemplate</label>
     <referenceTo>QuestionaireTemplate__c</referenceTo>
-    <relationshipLabel>Interactions</relationshipLabel>
     <relationshipName>Interactions</relationshipName>
     <required>true</required>
     <trackTrending>false</trackTrending>

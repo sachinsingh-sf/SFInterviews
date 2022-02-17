@@ -5,7 +5,6 @@
     <externalId>false</externalId>
     <label>Interaction</label>
     <referenceTo>Interaction__c</referenceTo>
-    <relationshipLabel>ScheduledInterviewer</relationshipLabel>
     <relationshipName>ScheduledInterviewer</relationshipName>
     <required>true</required>
     <trackTrending>false</trackTrending>
