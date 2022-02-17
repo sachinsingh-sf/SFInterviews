@@ -155,8 +155,9 @@
     <externalSharingModel>ReadWrite</externalSharingModel>
     <label>Interaction</label>
     <nameField>
-        <label>Interaction Name</label>
-        <type>Text</type>
+        <displayFormat>SF-Interaction-{00000}</displayFormat>
+        <label>Interaction</label>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Interactions</pluralLabel>
     <searchLayouts/>
