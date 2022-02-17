@@ -24,6 +24,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>force:highlightsPanel</componentName>
+                <identifier>id1</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
@@ -46,6 +47,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>force:relatedListContainer</componentName>
+                <identifier>id2</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
@@ -56,6 +58,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>force:detailPanel</componentName>
+                <identifier>id3</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
@@ -66,6 +69,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>eventDashboardMain</componentName>
+                <identifier>id4</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-e30a30a8-6913-4d50-a11e-4c7549148ca4</name>
@@ -83,6 +87,7 @@
                     <value>Standard.Tab.relatedLists</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>id5</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -100,6 +105,7 @@
                     <value>Standard.Tab.detail</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>id6</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -113,6 +119,7 @@
                     <value>Planner</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>id7</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
@@ -127,6 +134,7 @@
                     <value>maintabs</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tabset</componentName>
+                <identifier>id8</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>

@@ -152,14 +152,15 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <externalSharingModel>Private</externalSharingModel>
     <label>Scheduled Interview Panel</label>
     <nameField>
-        <label>ScheduledInterviewPanel Name</label>
-        <type>Text</type>
+        <displayFormat>SF-Interview-{00000}</displayFormat>
+        <label>Scheduled Interview</label>
+        <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>ScheduledInterviewPanel</pluralLabel>
+    <pluralLabel>ScheduledInterviewer</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ControlledByParent</sharingModel>
+    <sharingModel>Private</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
