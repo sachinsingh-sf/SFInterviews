@@ -61,15 +61,6 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
-    <relatedLists>
-        <fields>NAME</fields>
-        <fields>Actual_Start_Time__c</fields>
-        <fields>Actual_End_Time__c</fields>
-        <fields>Interaction__c</fields>
-        <fields>Feedback__c</fields>
-        <fields>HandshakeInformation__c</fields>
-        <relatedList>ScheduledInterviewer__c.HiringPanelMember__c</relatedList>
-    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>

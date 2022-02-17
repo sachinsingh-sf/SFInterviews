@@ -92,11 +92,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Interaction__c.Expected_End_Time__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>InterviewEvent__c.ParentInterviewEvent__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -228,9 +223,6 @@
         <layout>HiringPanel__c-HiringPanel Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Interaction__c-Interaction Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>InterviewEventTemplateSkill__c-InterviewEventTemplateSkill Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -333,15 +325,6 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>HiringPanel__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>Interaction__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
