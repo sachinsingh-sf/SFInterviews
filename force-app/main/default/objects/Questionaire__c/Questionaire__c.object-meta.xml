@@ -149,16 +149,16 @@
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Questionaire Template</label>
+    <label>Questionaire</label>
     <nameField>
-        <label>QuestionaireTemplate Name</label>
+        <label>Questionaire Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Questionaire Templates</pluralLabel>
+    <pluralLabel>Questionaires</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

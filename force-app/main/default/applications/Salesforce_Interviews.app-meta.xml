@@ -19,9 +19,12 @@
         <pageOrSobjectType>Interview__c</pageOrSobjectType>
     </actionOverrides>
     <brand>
-        <headerColor>#0070D2</headerColor>
+        <headerColor>#BE5818</headerColor>
+        <logo>headhunter</logo>
+        <logoVersion>1</logoVersion>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
+    <description>Hunt the Talent</description>
     <formFactors>Small</formFactors>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
@@ -34,6 +37,7 @@
     <tabs>InterviewOrganizingCommittee__c</tabs>
     <tabs>standard-Event</tabs>
     <tabs>standard-Account</tabs>
+    <tabs>Questionaire__c</tabs> 
     <uiType>Lightning</uiType>
     <utilityBar>Salesforce_Interviews_UtilityBar</utilityBar>
 </CustomApplication>
