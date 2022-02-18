@@ -32,6 +32,8 @@
     <tabs>HiringPanel__c</tabs>
     <tabs>InterviewEvent__c</tabs>
     <tabs>InterviewOrganizingCommittee__c</tabs>
+    <tabs>standard-Event</tabs>
+    <tabs>standard-Account</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Salesforce_Interviews_UtilityBar</utilityBar>
 </CustomApplication>
