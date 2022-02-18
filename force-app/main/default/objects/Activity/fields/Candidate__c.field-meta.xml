@@ -4,7 +4,7 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
     <label>Candidate</label>
-    <referenceTo>Candidate__c</referenceTo>
+    <referenceTo>Account</referenceTo>
     <relationshipLabel>Activities</relationshipLabel>
     <relationshipName>Activities</relationshipName>
     <required>false</required>
