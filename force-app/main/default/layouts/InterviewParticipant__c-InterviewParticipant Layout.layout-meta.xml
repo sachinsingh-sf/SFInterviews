@@ -27,8 +27,8 @@
                 <field>Available_Till__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>QuestionaireTemplate__c</field>
+                <behavior>Edit</behavior>
+                <field>Candidate_Level__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns/>

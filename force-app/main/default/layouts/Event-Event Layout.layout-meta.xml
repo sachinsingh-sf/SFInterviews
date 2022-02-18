@@ -50,10 +50,6 @@
                 <behavior>Edit</behavior>
                 <field>Handshake_Information__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Member_Role__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -71,6 +67,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>IsAllDayEvent</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Attendees</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
