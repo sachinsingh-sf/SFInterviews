@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <label>Interview Event</label>
     <referenceTo>InterviewEvent__c</referenceTo>
-    <relationshipLabel>Interview Candidates</relationshipLabel>
+    <relationshipLabel>Interview Event Candidates</relationshipLabel>
     <relationshipName>InterviewEventCandidate</relationshipName>
     <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>

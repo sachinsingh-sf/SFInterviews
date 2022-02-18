@@ -98,21 +98,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>InterviewEvent__c.ParentInterviewEvent__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>InterviewEvent__c.State__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>InterviewOrganizingCommittee__c.ParentOrganizingCommittee__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>InterviewEventCandidate__c.Available_From__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -124,6 +109,21 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>InterviewEventCandidate__c.Candidate_Level__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>InterviewEvent__c.ParentInterviewEvent__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>InterviewEvent__c.State__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>InterviewOrganizingCommittee__c.ParentOrganizingCommittee__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -165,6 +165,11 @@
         <editable>false</editable>
         <field>QuestionaireTemplate__c.Description__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Questionaire__c.Description__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -238,19 +243,22 @@
         <layout>HiringPanel__c-HiringPanel Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>InterviewEventCandidate__c-InterviewEventCandidate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>InterviewEvent__c-InterviewEvent Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>InterviewOrganizingCommittee__c-InterviewOrganizingCommittee Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>InterviewEventCandidate__c-InterviewEventCandidate Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Interview__c-Interview Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>OrganizingCommitteeHiringPanel__c-OrganisingCommitteeHiringPanel Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>QuestionaireTemplate__c-QuestionaireTemplate Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Questionaire__c-Questionaire Layout</layout>
@@ -309,6 +317,15 @@
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
+        <object>InterviewEventCandidate__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>InterviewEventQuestionaireTemplate__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
@@ -328,15 +345,6 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>InterviewOrganizingCommittee__c</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>InterviewEventCandidate__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>

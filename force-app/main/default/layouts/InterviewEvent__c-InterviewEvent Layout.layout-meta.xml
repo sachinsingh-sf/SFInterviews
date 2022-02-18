@@ -15,10 +15,6 @@
                 <field>ParentInterviewEvent__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>InterviewEventQuestionaireTemplate__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>State__c</field>
             </layoutItems>
@@ -76,6 +72,10 @@
         <fields>NAME</fields>
         <relatedList>InterviewEvent__c.ParentInterviewEvent__c</relatedList>
     </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>InterviewEventQuestionaireTemplate__c.InterviewEvent__c</relatedList>
+    </relatedLists>    
     <relatedLists>
         <fields>NAME</fields>
         <fields>Available_From__c</fields>

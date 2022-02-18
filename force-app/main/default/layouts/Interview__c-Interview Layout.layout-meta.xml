@@ -39,6 +39,10 @@
                 <behavior>Edit</behavior>
                 <field>Actual_End_Time__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Questionaire__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

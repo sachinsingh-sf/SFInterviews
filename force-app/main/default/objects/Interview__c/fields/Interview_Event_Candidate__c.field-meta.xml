@@ -3,7 +3,7 @@
     <fullName>Interview_Event_Candidate__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <externalId>false</externalId>
-    <label>Interview Participant</label>
+    <label>Interview Event Candidate</label>
     <referenceTo>InterviewEventCandidate__c</referenceTo>
     <relationshipLabel>Interviews</relationshipLabel>
     <relationshipName>Interviews</relationshipName>
