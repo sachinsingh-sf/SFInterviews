@@ -205,9 +205,6 @@
         <layout>CandidatePool__c-CandidatePool Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Candidate__c-Candidate Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Event-Event Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -258,15 +255,7 @@
         <object>CandidatePool__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Candidate__c</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
+
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>
@@ -393,10 +382,7 @@
         <object>Skill__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
-    <tabVisibilities>
-        <tab>Candidate__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
+
     <tabVisibilities>
         <tab>HiringPanel__c</tab>
         <visibility>Hidden</visibility>
