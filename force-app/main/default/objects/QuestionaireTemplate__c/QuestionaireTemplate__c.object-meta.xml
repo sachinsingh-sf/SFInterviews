@@ -153,12 +153,12 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>QuestionaireTemplate</label>
+    <label>Questionaire Template</label>
     <nameField>
         <label>QuestionaireTemplate Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>QuestionaireTemplate</pluralLabel>
+    <pluralLabel>Questionaire Templates</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

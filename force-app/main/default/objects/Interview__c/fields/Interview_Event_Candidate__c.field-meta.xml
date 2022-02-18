@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Candidate__c</fullName>
+    <fullName>Interview_Event_Candidate__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <externalId>false</externalId>
-    <label>Candidate</label>
-    <referenceTo>Account</referenceTo>
-    <relationshipLabel>Event Interviews</relationshipLabel>
-    <relationshipName>EventInterviews</relationshipName>
+    <label>Interview Event Candidate</label>
+    <referenceTo>InterviewEventCandidate__c</referenceTo>
+    <relationshipLabel>Interviews</relationshipLabel>
+    <relationshipName>Interviews</relationshipName>
     <required>true</required>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>

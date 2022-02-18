@@ -143,24 +143,24 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Committee or group organising the interview event.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
-    <enableSearch>true</enableSearch>
+    <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>Private</externalSharingModel>
-    <label>Organizing Committee</label>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>Interview Event Candidate</label>
     <nameField>
-        <label>Name</label>
-        <type>Text</type>
+        <displayFormat>IEC-{00000}</displayFormat>
+        <label>Interview Event Candidate</label>
+        <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Organizing Committee</pluralLabel>
+    <pluralLabel>Interview Event Candidate</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

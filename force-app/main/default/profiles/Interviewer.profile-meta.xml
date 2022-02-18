@@ -5,10 +5,6 @@
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
-    <classAccesses>
-        <apexClass>SlackAWSCallout</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
@@ -47,11 +43,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Event.Member_Role__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Event.Type</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -72,7 +63,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>FeedbackItem__c.Interview__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>FeedbackItem__c.Is_Template__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>FeedbackItem__c.Proficiency_Level__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>FeedbackItem__c.Questionaire__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -92,6 +98,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>InterviewEventCandidate__c.Available_From__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>InterviewEventCandidate__c.Available_Till__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>InterviewEventCandidate__c.Candidate_Level__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>InterviewEvent__c.ParentInterviewEvent__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -103,16 +124,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>InterviewOrganizingCommittee__c.ParentOrganizingCommittee__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>InterviewParticipant__c.Available_From__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>InterviewParticipant__c.Available_Till__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -146,6 +157,26 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>QuestionaireTemplate__c.Candidate_Level__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>QuestionaireTemplate__c.Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Questionaire__c.Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Questionaire__c.QuestionaireTemplate__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Task.ActivityDate</field>
         <readable>true</readable>
@@ -173,11 +204,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Task.Handshake_Information__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Task.Member_Role__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -217,7 +243,7 @@
         <layout>HiringPanel__c-HiringPanel Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>InterviewEventTemplateSkill__c-InterviewEventTemplateSkill Layout</layout>
+        <layout>InterviewEventCandidate__c-InterviewEventCandidate Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>InterviewEvent__c-InterviewEvent Layout</layout>
@@ -226,13 +252,16 @@
         <layout>InterviewOrganizingCommittee__c-InterviewOrganizingCommittee Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>InterviewParticipant__c-InterviewParticipant Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Interview__c-Interview Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>OrganizingCommitteeHiringPanel__c-OrganisingCommitteeHiringPanel Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>QuestionaireTemplate__c-QuestionaireTemplate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Questionaire__c-Questionaire Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
@@ -255,7 +284,6 @@
         <object>CandidatePool__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
-
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>
@@ -263,24 +291,6 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>FeedbackItem__c</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>FeedbackTemplate__c</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>HandshakeInformation__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -307,7 +317,7 @@
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
-        <object>InterviewEventTemplateSkill__c</object>
+        <object>InterviewEventCandidate__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -316,7 +326,7 @@
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
-        <object>InterviewEventTemplate__c</object>
+        <object>InterviewEventQuestionaireTemplate__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -335,15 +345,6 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>InterviewOrganizingCommittee__c</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>InterviewParticipant__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -373,16 +374,6 @@
         <object>QuestionaireTemplate__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Skill__c</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-
     <tabVisibilities>
         <tab>HiringPanel__c</tab>
         <visibility>Hidden</visibility>
@@ -393,6 +384,14 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>InterviewOrganizingCommittee__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>QuestionaireTemplate__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Questionaire__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
