@@ -68,10 +68,6 @@
                 <behavior>Edit</behavior>
                 <field>IsAllDayEvent</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Attendees</field>
-            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>

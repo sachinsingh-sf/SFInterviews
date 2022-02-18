@@ -1,8 +1,8 @@
-trigger notifyAWSSlack on InterviewParticipant__c (after insert,after update) {
+trigger notifyAWSSlack on InterviewEventCandidate__c (after insert,after update) {
 
 
-List<InterviewParticipant__c> interviews = [Select Id,Name
-                      from InterviewParticipant__c where Id in :Trigger.new];
+List<InterviewEventCandidate__c> interviews = [Select Id,Name
+                      from InterviewEventCandidate__c where Id in :Trigger.new];
  
 if(interviews.size()==0)
  return;

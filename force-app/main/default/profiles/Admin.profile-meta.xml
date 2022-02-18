@@ -5,10 +5,6 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
-    <classAccesses>
-        <apexClass>SlackAWSCallout</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -117,17 +113,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>InterviewParticipant__c.Available_From__c</field>
+        <field>InterviewEventCandidate__c.Available_From__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>InterviewParticipant__c.Available_Till__c</field>
+        <field>InterviewEventCandidate__c.Available_Till__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>InterviewParticipant__c.Candidate_Level__c</field>
+        <field>InterviewEventCandidate__c.Candidate_Level__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -168,11 +164,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>QuestionaireTemplate__c.Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Questionaire__c.Is_Template__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -241,16 +232,10 @@
         <layout>FeedbackItem__c-Feedback Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>HandshakeInformation__c-HandshakeInformation Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>HiringPanelMember__c-HiringPanelMember Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>HiringPanel__c-HiringPanel Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>InterviewEventTemplateSkill__c-InterviewEventTemplateSkill Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>InterviewEvent__c-InterviewEvent Layout</layout>
@@ -259,16 +244,13 @@
         <layout>InterviewOrganizingCommittee__c-InterviewOrganizingCommittee Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>InterviewParticipant__c-InterviewParticipant Layout</layout>
+        <layout>InterviewEventCandidate__c-InterviewEventCandidate Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Interview__c-Interview Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>OrganizingCommitteeHiringPanel__c-OrganisingCommitteeHiringPanel Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>QuestionaireTemplate__c-QuestionaireTemplate Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Questionaire__c-Questionaire Layout</layout>
@@ -318,24 +300,6 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>FeedbackTemplate__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>HandshakeInformation__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
         <object>HiringPanelMember__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -354,16 +318,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>InterviewEventTemplateSkill__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>InterviewEventTemplate__c</object>
+        <object>InterviewEventQuestionaireTemplate__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -390,7 +345,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>InterviewParticipant__c</object>
+        <object>InterviewEventCandidate__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -427,15 +382,6 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Questionaire__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>Skill__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabVisibilities>

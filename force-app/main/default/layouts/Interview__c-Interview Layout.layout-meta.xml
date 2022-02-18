@@ -13,7 +13,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Interview_Participant__c</field>
+                <field>Interview_Event_Candidate__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>

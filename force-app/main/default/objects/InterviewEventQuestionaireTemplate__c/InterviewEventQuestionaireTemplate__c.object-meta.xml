@@ -143,6 +143,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>Configuration settings for an interview event.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -153,13 +154,13 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Interview Participant</label>
+    <label>Interview Event Questionaire Template</label>
     <nameField>
-        <displayFormat>SF-Candidate-{00000}</displayFormat>
-        <label>Interview Participant</label>
+        <displayFormat>IEQT-{000000}</displayFormat>
+        <label>Name</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Interview Participants</pluralLabel>
+    <pluralLabel>InterviewEventQuestionaireTemplates</pluralLabel>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>

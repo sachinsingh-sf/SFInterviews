@@ -24,11 +24,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Is_Template__c</field>
+                <field>Questionaire__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Questionaire__c</field>
+                <field>Is_Template__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

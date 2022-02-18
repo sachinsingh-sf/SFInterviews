@@ -152,14 +152,15 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>Private</externalSharingModel>
-    <label>HandshakeInformation</label>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>Interview Event Candidate</label>
     <nameField>
-        <label>HandshakeInfo Name</label>
-        <type>Text</type>
+        <displayFormat>IEC-{00000}</displayFormat>
+        <label>Interview Event Candidate</label>
+        <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>HandshakeInformation</pluralLabel>
+    <pluralLabel>Interview Event Candidate</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

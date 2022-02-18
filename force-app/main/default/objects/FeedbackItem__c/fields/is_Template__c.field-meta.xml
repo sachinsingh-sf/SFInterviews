@@ -3,7 +3,7 @@
     <fullName>Is_Template__c</fullName>
     <defaultValue>false</defaultValue>
     <externalId>false</externalId>
-    <label>Is Template</label>
+    <label>Is_Template</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>
 </CustomField>

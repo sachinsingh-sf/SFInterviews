@@ -5,8 +5,8 @@
     <externalId>false</externalId>
     <label>Candidate</label>
     <referenceTo>Account</referenceTo>
-    <relationshipLabel>Event Interviews</relationshipLabel>
-    <relationshipName>EventInterviews</relationshipName>
+    <relationshipLabel>Interviews</relationshipLabel>
+    <relationshipName>Interviews</relationshipName>
     <required>true</required>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>

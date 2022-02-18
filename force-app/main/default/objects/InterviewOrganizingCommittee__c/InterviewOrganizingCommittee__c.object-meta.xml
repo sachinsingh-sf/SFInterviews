@@ -154,12 +154,12 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Interview Organizing Committee</label>
+    <label>Organizing Committee</label>
     <nameField>
         <label>Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Interview Organizing Committee</pluralLabel>
+    <pluralLabel>Organizing Committee</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

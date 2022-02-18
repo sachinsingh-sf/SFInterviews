@@ -5,8 +5,8 @@
     <externalId>false</externalId>
     <label>QuestionaireTemplate</label>
     <referenceTo>QuestionaireTemplate__c</referenceTo>
-    <relationshipLabel>Questionaires</relationshipLabel>
-    <relationshipName>Questionaires</relationshipName>
+    <relationshipLabel>Template Questionaires</relationshipLabel>
+    <relationshipName>TemplateQuestionaires</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>

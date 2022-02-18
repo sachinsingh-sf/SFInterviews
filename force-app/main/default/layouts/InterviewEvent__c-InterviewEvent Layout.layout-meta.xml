@@ -16,7 +16,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>InterviewEventTemplate__c</field>
+                <field>InterviewEventQuestionaireTemplate__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -80,7 +80,7 @@
         <fields>NAME</fields>
         <fields>Available_From__c</fields>
         <fields>Available_Till__c</fields>
-        <relatedList>InterviewParticipant__c.InterviewEvent__c</relatedList>
+        <relatedList>InterviewEventCandidate__c.InterviewEvent__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
